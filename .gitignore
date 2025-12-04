@@ -1,0 +1,6 @@
+LargeST/data/
+*.npz
+.DS_Store
+*.pyc
+__pycache__/
+*.pt

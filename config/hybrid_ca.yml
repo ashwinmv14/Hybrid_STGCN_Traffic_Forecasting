@@ -1,0 +1,15 @@
+# Hybrid STGCN configuration for CA dataset
+
+use_film: true
+use_alignn: true
+use_dynamic_adj: true
+
+film_hidden: 64
+alignn_hidden: 64
+alpha_dyn: 0.005
+
+# Training params
+lr: 0.001
+clip: 5.0
+max_epochs: 100
+patience: 30

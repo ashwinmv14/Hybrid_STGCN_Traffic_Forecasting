@@ -1,0 +1,13 @@
+2025-12-01 04:53:09.399766: 1_stgcn_only - success
+  Val MAE: 0.1076
+  Test MAE: 23.36
+2025-12-01 16:46:25.602438: 1_stgcn_only - success
+  Test MAE: 24.03
+2025-12-01 22:26:13.192496: 2_stgcn_film - success
+  Test MAE: 24.24
+2025-12-02 04:19:39.379332: 3_stgcn_alignn - success
+  Test MAE: 23.69
+2025-12-02 09:59:21.370163: 4_stgcn_dyn - success
+  Test MAE: 24.20
+2025-12-02 16:08:42.967039: 5_full_model - success
+  Test MAE: 24.34

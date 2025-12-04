@@ -1,0 +1,16 @@
+# STGCN Only (Baseline) - No FiLM, No ALIGNN, No Dynamic Adjacency
+# This is the baseline for ablation study
+
+use_film: false
+use_alignn: false
+use_dynamic_adj: false
+
+film_hidden: 64
+alignn_hidden: 64
+alpha_dyn: 0.005
+
+# Training params
+lr: 0.001
+clip: 5.0
+max_epochs: 100
+patience: 30
